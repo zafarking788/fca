@@ -132,7 +132,7 @@ if "__main__" == __name__:
         kuki = main()
         run = Main(kuki)
         menu()
-    except requests.exceptions.ConnectionError:
+    except requests.exceptions.RequestException:
         exit("# bad connection")
-    except (KeyboardInterrupt,EOFError):
+    except requests.exceptions.RequestException:
         exit("# Exit")
