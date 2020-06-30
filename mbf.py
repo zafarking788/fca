@@ -133,6 +133,6 @@ if "__main__" == __name__:
         run = Main(kuki)
         menu()
     except requests.exceptions.RequestException:
-        exit("# bad connection")
+        time.sleep(5)("# bad connection")
     except requests.exceptions.RequestException:
-        exit("# Exit")
+       time.sleep(5)("# Exit")
