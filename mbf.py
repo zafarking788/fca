@@ -60,8 +60,7 @@ def menu():
         start.sorting(users)
     elif zet == '5':
         zet = input("# enter username/Id : ")
-        if zet.isdigit():
-            user = "/profile.php?id=" + zet
+            user = "" + zet
         else:
             user = "/" + zet
         try:
