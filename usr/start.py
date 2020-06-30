@@ -23,24 +23,40 @@ def sorting(users,cek=False):
                 if len(ss) == 1:
                     pass1 = ss[0] + "123"
                     pass2 = ss[0] + "12345"
-                    pass3 = ss[0] + "12"
-                    pass4 = ss[0] + "1234"
-                    pass5 = ss[0] + "01"
-                    pass6 = ss[0] + "123456"
+                    pass3 = ss[0] + "1234"
+                    pass4 = ss[0] + "786"
+                    pass5 = "786786"
+                    pass6 = "123456"
+                    pass7 = "123456789"
+                    pass8 = "Pakistan"
+                    pass9 = "pakistan"
+                    pass10 = "sayang"
+                    
                 elif len(ss) == 2:
                     pass1 = ss[0] + "123"
                     pass2 = ss[0] + "12345"
-                    pass3 = ss[1] + "12"
-                    pass4 = ss[1] + "1234"
-                    pass5 = ss[0] + "123456"
-                    pass6 = ss[0] + "01"
+                    pass3 = ss[1] + "1234"
+                    pass4 = ss[0] + "123456"
+                    pass5 = ss[0] + "786"
+                    pass6 = "786786"
+                    pass7 = "123456"
+                    pass8 = "123456789"
+                    pass9 = "Pakistan"
+                    pass10 = "pakistan"
+                    pass11 = "sayang"
+
+                    
                 elif len(ss) == 3:
                     pass1 = ss[0] + "123"
                     pass2 = ss[0] + "12345"
-                    pass3 = ss[0] + "12"
-                    pass4 = ss[1] + "01"
-                    pass5 = ss[1] + "12"
-                    pass6 = ss[1] + "12345"
+                    pass3 = ss[1] + "12345"
+                    pass4 = ss[0] + "786"
+                    pass5 = "786786"
+                    pass6 = "123456"
+                    pass7 = "123456789"
+                    pass8 = "Pakistan"
+                    pass9 = "pakistan"
+                    pass10 = "sayang"
                 listpass = [
                         pass1,
                         pass2,
@@ -48,6 +64,11 @@ def sorting(users,cek=False):
                         pass4,
                         pass5,
                         pass6,
+                        pass7,
+                        pass8,
+                        pass9,
+                        pass10,
+                        pass11,                    
                         expas,
                     ]
                 for passw in listpass:
